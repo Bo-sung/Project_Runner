@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\sbss0\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\sbss0\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_github repository.1233562884.00" t="ExcludeRecursive" />
+    <e p="F:\github repository" t="IncludeRecursive">
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Pixelplacement" t="Include">
+            <e p="iTween" t="Include">
+              <e p="iTween.cs" t="Include" />
+              <e p="ReadMe!" t="Include">
+                <e p="ReadMe!.txt" t="Include" />
+              </e>
+              <e p="Sample" t="Include">
+                <e p="MoveSample.cs" t="Include" />
+                <e p="RotateSample.cs" t="Include" />
+                <e p="SampleInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="scr" t="Include">
+          <e p="destroySelf.cs" t="Include" />
+          <e p="MapScr" t="Include">
+            <e p="base_loop.cs" t="Include" />
+            <e p="MapContainer.cs" t="Include" />
+            <e p="scrollBG.cs" t="Include" />
+          </e>
+          <e p="PlayerScr" t="Include">
+            <e p="Enemy.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="send_col.cs" t="Include" />
+            <e p="Statuses.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+          </e>
+          <e p="UIScr" t="Include">
+            <e p="CameraCtr.cs" t="Include" />
+            <e p="QuitButton.cs" t="Include" />
+            <e p="StartButton.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="github repository.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - GROUND
   - GameOverZone
+  - Enemy
   layers:
   - Default
   - TransparentFX

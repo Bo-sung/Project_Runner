@@ -11,6 +11,8 @@ namespace PlayerInitiallize
 {
     public class Player :MonoBehaviour
     {
+        public Rigidbody rb;
+        public Animator ani;
         private float Jump_Power = 8f;
         public float jump;
         public float power;
@@ -102,12 +104,34 @@ namespace PlayerInitiallize
         {
 
         }
-        public void OnCollisionEnter(Collision collision)
+
+        public virtual void Attack(GameObject Target)
         {
-            if(collision.transform.tag == "DeathZone")
+            
+        }
+
+        public virtual void Attacked()
+        {
+            
+        }
+        public virtual void Attacked(float power)
+        {
+            
+        }
+        
+        
+        
+        public virtual void OnColEnter(Collision col)
+        {
+            if(col.transform.tag == "DeathZone")
             {
                 state.death = true;
             }
+        }
+        
+        private void OnCollisionEnter(Collision collision)
+        {
+            OnColEnter(collision);
         }
     }
 }
