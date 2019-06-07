@@ -38,7 +38,8 @@ namespace scr.PlayerScr
 
         private void Destroy_self()
         {
-            this.GetComponent<destroySelf>().activation = true;
+            gameObject.SetActive(false);
+            //this.GetComponent<destroySelf>().activation = true;
         }
         
         
@@ -54,6 +55,11 @@ namespace scr.PlayerScr
         public override void OnColEnter(Collision col)
         {
             base.OnColEnter(col);
+            if (col.transform.CompareTag("Player"))
+            {
+                Attack(col.gameObject);
+            }
+            
         }
     }
 }

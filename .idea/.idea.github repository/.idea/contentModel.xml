@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="DeathZone_scr.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="Pixelplacement" t="Include">
             <e p="iTween" t="Include">
@@ -23,11 +24,16 @@
           </e>
         </e>
         <e p="scr" t="Include">
+          <e p="DataScr" t="Include">
+            <e p="Container.cs" t="Include" />
+            <e p="MapContainer.cs" t="Include" />
+            <e p="MonsterContainer.cs" t="Include" />
+          </e>
           <e p="destroySelf.cs" t="Include" />
           <e p="MapScr" t="Include">
             <e p="base_loop.cs" t="Include" />
-            <e p="MapContainer.cs" t="Include" />
             <e p="scrollBG.cs" t="Include" />
+            <e p="Spwaner.cs" t="Include" />
           </e>
           <e p="PlayerScr" t="Include">
             <e p="Enemy.cs" t="Include" />

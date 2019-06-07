@@ -66,14 +66,14 @@ public class User : Player
     
     
 
-    public override void Attacked(float power)
+    public override void Attacked(float _power)
     {
-        buff = -power;
+        buff = _power * -1;
     }
 
     public override void Attack(GameObject target)
     {
-        target.GetComponent<User>().Attacked();
+        target.GetComponent<Enemy>().Attacked();
         buff = power;
     }
     
@@ -96,7 +96,7 @@ public class User : Player
             Set_Ani(ani, (int)Mov.Stand, (int)Sta.Run);
             smoke.SetActive(true);
         }
-        if(col.transform.CompareTag("Enemy"))//col.transform.parent.CompareTag("Enemy") && 
+        else if(col.transform.CompareTag("Enemy")&&col.transform.name == "Head")//col.transform.parent.CompareTag("Enemy") && 
         {
             Debug.Log(col.transform.name);
             Attack(col.gameObject);
