@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using scr.DataScr;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.GameCenter;
 
 public class MonsterContainer : Container
 {
