@@ -25,11 +25,11 @@ namespace scr.PlayerScr
             Move();
         }
 
-        public override void Attack(GameObject target)
-        {
-            target.GetComponent<User>().Attacked(power);
-            Destroy_self();
-        }
+        //public override void Attack(GameObject target)
+        //{
+        //    target.GetComponent<User>().Attacked(power);
+        //    Destroy_self();
+        //}
 
         public override void Attacked()
         {
@@ -57,7 +57,7 @@ namespace scr.PlayerScr
             base.OnColEnter(col);
             if (col.transform.CompareTag("Player"))
             {
-                Attack(col.gameObject);
+                //Attack(col.gameObject);
             }
             
         }

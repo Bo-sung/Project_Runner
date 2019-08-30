@@ -32,7 +32,7 @@ public class base_loop : MonoBehaviour {
         float size_x = Gab * -1;
         foreach (var stage in stages)
         {
-            stage.transform.position = new Vector3(0 + size_x,-5,-2);
+            stage.transform.position = new Vector3(0 + size_x + Gab,-5,-2);
             size_x += stage.transform.localScale.x + Gab;
         }
 

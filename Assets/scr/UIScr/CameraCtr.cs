@@ -9,8 +9,8 @@ public class CameraCtr : MonoBehaviour
     public GameObject player;
     public float speed = 0.5f;
     float cameraSize = 6f;
-    public float MaXsize = 7f;
-    public float MinSize = 5f;
+    public float MaXsize = 6f;
+    public float MinSize = 4f;
 
     void Update()
     {

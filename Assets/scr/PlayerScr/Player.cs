@@ -9,10 +9,13 @@ using System.Collections;
 
 namespace PlayerInitiallize
 {
+    [RequireComponent(typeof(Rigidbody))]
+    [RequireComponent(typeof(Animator))]
     public class Player :MonoBehaviour
     {
-        public Rigidbody rb;
-        public Animator ani;
+        [Header("Player - Status")]
+        [HideInInspector] public Rigidbody rb;
+        [HideInInspector] public Animator ani;
         private float Jump_Power = 8f;
         public float jump;
         public float power;
@@ -24,6 +27,12 @@ namespace PlayerInitiallize
             stat.jump = Jump;
             stat.speed = Speed;
         }
+        public virtual void Move_Forard() { }
+        public virtual void Move_Backward() { }
+        public virtual void Jump() { }
+        public virtual void Crouch() { }
+        public virtual void Attack() { }
+        public virtual void Attacked() { }
         public Status stat;
 
         public Player()
@@ -41,11 +50,12 @@ namespace PlayerInitiallize
             stat.power = 0f;
             stat.speed = 1f;
         }
-        public void Set_Ani(Animator ani, int Move, int State)
+        public virtual void Set_Ani(Animator ani, int Move, int State)
         {
             ani.SetInteger("Mov", Move);
             ani.SetInteger("State", State);
         }
+        /*  에러채킹은 추후에 추가하도록 하자!  
         public string Compare_Ani_State(Animator ani) //만약 state와 에니메이션의 parameter가 일치하는지 검사, 에러가 있다면 부분 출력
         {
             string Error_Message = "No Error";
@@ -100,25 +110,11 @@ namespace PlayerInitiallize
 
             return Error_Message;
         }
+        */
         public virtual void Update()
         {
 
-        }
-
-        public virtual void Attack(GameObject Target)
-        {
-            
-        }
-
-        public virtual void Attacked()
-        {
-            
-        }
-        public virtual void Attacked(float power)
-        {
-            
-        }
-        
+        }       
         
         
         public virtual void OnColEnter(Collision col)

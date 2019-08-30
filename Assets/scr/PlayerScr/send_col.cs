@@ -16,7 +16,7 @@ namespace scr.PlayerScr
                 {
                     //transform.parent.GetComponent<Enemy>().Attacked();
                     User user = col.GetComponent<User>();
-                    user.Attack(this.transform.parent.gameObject);
+                    //user.Attack(this.transform.parent.gameObject);
                 }
             }
         }

@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PixelCharAnim_Plain_idle_0
+  m_Name: PixelCharNormalUpper
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Mov
@@ -62,7 +62,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7b3ed09971b127a4fa083de1c994f1ec, type: 2}
+  m_Motion: {fileID: 7400000, guid: 5ab2fe2018dd7b4489e1381bc311a5db, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -89,7 +89,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 93aa551ae8136b749ae2a583f8800859, type: 2}
+  m_Motion: {fileID: 7400000, guid: f9ed1a03c40b62c4688258bc7108b008, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -115,7 +115,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9cb46be97dc6940c486794f75e67bc2f, type: 2}
+  m_Motion: {fileID: 7400000, guid: 7d3b5900ad46c6a46af42fb53e91dc50, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -142,7 +142,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ff2faac4bcf46f543b7f72ceb2f3acb5, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0e82e7a049f4a4f40a3a188d78c41086, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
