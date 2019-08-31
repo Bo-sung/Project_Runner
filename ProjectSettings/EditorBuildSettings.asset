@@ -11,6 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/main.unity
     guid: 1a3e514045698b546abe660143d8f19a
-  - enabled: 1
+  - enabled: 0
     path: Assets/tricky.unity
     guid: 35f80a1af254b6e4d9d2c0f4c45e32f4
+  m_configObjects: {}

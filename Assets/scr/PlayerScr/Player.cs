@@ -37,6 +37,10 @@ namespace PlayerInitiallize
 
         public Player()
         {
+           
+        }
+        public virtual void Start()
+        {
             state = new State();
             state.Standing.jump = false;
             state.Standing.stand = true;

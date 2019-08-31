@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PixelCharNormalUpper
+  m_Name: PixelCharGunUpper
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Mov
@@ -62,7 +62,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5ab2fe2018dd7b4489e1381bc311a5db, type: 2}
+  m_Motion: {fileID: 7400000, guid: 38159540608cb2d488b9c5bae79297a5, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -89,7 +89,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f9ed1a03c40b62c4688258bc7108b008, type: 2}
+  m_Motion: {fileID: 7400000, guid: e96542efe8a356e458f9f195a4f36742, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -142,7 +142,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 0e82e7a049f4a4f40a3a188d78c41086, type: 2}
+  m_Motion: {fileID: 7400000, guid: 38159540608cb2d488b9c5bae79297a5, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -168,7 +168,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b013eecd2c79c4a05b2cf7dd03f466d8, type: 2}
+  m_Motion: {fileID: 7400000, guid: 3d4a1bd5c9defc342821a23ba7607d44, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -592,7 +592,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 7f1ecdd03713fc94ca872953b587e8bc, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6e6bf7db7d1ac0f45970accffa74a628, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

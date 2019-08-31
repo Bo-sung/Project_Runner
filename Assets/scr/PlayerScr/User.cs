@@ -9,14 +9,50 @@ public class User : Player
     
     [Header("Upper")]
     Animator Upper;
-    public GameObject Normal;
-    public GameObject Gun;
-    public GameObject Sword;
-    
+    public Animator Normal;
+    public Animator Gun;
+    public Animator Sword;
+    GameObject upr_Normal;
+    GameObject upr_Gun;
+    GameObject upr_Sword;
+
     [Header("Upper-Select")]
     public bool Normal_Upper;
     public bool Gun_Upper;
     public bool Sword_Upper;
+    Animator upperSelector()
+    {
+        Animator upr = null;
+        if (Normal_Upper)
+        {
+            upr = Normal;
+            Gun_Upper = false;
+            Sword_Upper = false;
+        }
+        else if (!Gun_Upper && Sword_Upper)
+        {
+            upr = Sword;
+            Normal_Upper = false;
+            Gun_Upper = false;
+        }
+        else if (Gun_Upper && !Sword_Upper)
+        {
+            upr = Gun;
+            Normal_Upper = false;
+            Sword_Upper = false;
+        }
+        else
+        {
+            upr = Normal;
+            Normal_Upper = true;
+            Gun_Upper = false;
+            Sword_Upper = false;
+        }
+        upr_Normal.SetActive(Normal_Upper);
+        upr_Gun.SetActive(Gun_Upper);
+        upr_Sword.SetActive(Sword_Upper);
+        return upr;
+    }
 
     [Header("UI")]
     public GameObject gameoverUI;
@@ -34,40 +70,24 @@ public class User : Player
     }
     public User() : base()
     {
-        Upper = GetComponent<Animator>();
-        if (Normal_Upper)
-        {
-            Upper = Normal.GetComponent<Animator>();
-            Gun_Upper = false;
-            Sword_Upper = false;
-            Gun.SetActive(false);
-            Sword.SetActive(false);
-
-        }
-        else if(!Gun_Upper && Sword_Upper)
-        {
-            Upper = Sword.GetComponent<Animator>();
-            Normal_Upper = false;
-            Sword_Upper = false;
-            Gun.SetActive(false);
-            Normal.SetActive(false);
-
-        }
-        else if (Gun_Upper && !Sword_Upper)
-        {
-            Upper = Gun.GetComponent<Animator>();
-            Normal_Upper = false;
-            Gun_Upper = false;
-            Gun.SetActive(false);
-            Normal.SetActive(false);
-        }
-        else
-        {
-            Upper = Normal.GetComponent<Animator>();
-            Gun.SetActive(false);
-            Sword.SetActive(false);
-        }
+        
     }
+    public override void Start()
+    {
+        base.Start();
+        buff = 0;
+        power = 3;
+        Set_Status(jump, power, speed);
+        rb = GetComponent<Rigidbody>();
+        ani = GetComponent<Animator>();
+        ani.SetInteger("Mov", 0);
+        ani.SetInteger("State", 1);
+        upr_Normal = transform.Find("Normal").gameObject;
+        upr_Gun = transform.Find("Gun").gameObject;
+        upr_Sword = transform.Find("Sword").gameObject;
+        Upper = upperSelector();
+    }
+
     private struct groggy
     {
         public bool stun;
@@ -92,16 +112,6 @@ public class User : Player
     }
     // Use this for initialization
     // 사실상 생성자는 start임
-    void Start ()
-    {
-        buff = 0;
-        power = 3;
-        Set_Status(jump, power, speed);
-        rb = GetComponent<Rigidbody>();
-        ani = GetComponentInChildren<Animator>();
-        ani.SetInteger("Mov", 0);
-        ani.SetInteger("State", 1);
-    }
     // Update is called once per frame
     void Update ()
     {
@@ -130,17 +140,37 @@ public class User : Player
             gameoverUI.active = true;
         }
     }
+
     public override void OnColEnter(Collision col)
     {
         base.OnColEnter(col);
-        if(col.transform.tag == "GROUND")
+        if (col.transform.tag == "GROUND")
         {
             Debug.Log("ON");
             state.Standing.jump = false;
-            Set_Ani(ani, (int)Mov.Stand, (int)Sta.Run);
+            Set_Ani(ani, (int) Mov.Stand, (int) Sta.Run);
             smoke.SetActive(true);
         }
+
+        if (col.transform.tag == "Item")
+        {
+            Debug.Log("Equip");
+            if (col.transform.name == "Gun")
+            {
+                Gun_Upper = true;
+                Normal_Upper = false;
+                Sword_Upper = false;
+            }
+            else if(col.transform.name == "Sword")
+            {
+                Gun_Upper = false;
+                Normal_Upper = false;
+                Sword_Upper = true;
+            }
+            Upper = upperSelector();
+        }
     }
+
     private void OnTriggerEnter(Collider other)
     {
     }
