@@ -112,7 +112,7 @@ namespace PlayerInitiallize
                 }
             }
 
-            return Error_MesOnColEntersage;
+            return Error_Message;
         }
         */
         public virtual void Update()
@@ -121,9 +121,9 @@ namespace PlayerInitiallize
         }       
         
         
-        public virtual void Bump(Collision col)
+        public virtual void OnColEnter(Collision col)
         {
-            if(col.transform.CompareTag("GameOverZone"))
+            if(col.transform.tag == "DeathZone")
             {
                 state.death = true;
             }
@@ -131,7 +131,7 @@ namespace PlayerInitiallize
         
         private void OnCollisionEnter(Collision collision)
         {
-            Bump(collision);
+            OnColEnter(collision);
         }
     }
 }

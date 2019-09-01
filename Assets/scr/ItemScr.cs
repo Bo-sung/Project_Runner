@@ -7,7 +7,7 @@ using UnityEngine;
 public class ItemScr : MonoBehaviour
 {
     public destroySelf destroy;
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
         if (other.transform.tag == "Player")
         {
