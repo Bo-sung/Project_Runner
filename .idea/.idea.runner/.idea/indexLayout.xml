@@ -17,7 +17,6 @@
       <Path>.idea</Path>
       <Path>.vs</Path>
       <Path>Library</Path>
-      <Path>Temp</Path>
       <Path>build_1</Path>
       <Path>obj</Path>
     </explicitExcludes>

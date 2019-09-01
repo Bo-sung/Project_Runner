@@ -52,9 +52,9 @@ namespace scr.PlayerScr
 
         
 
-        public override void OnColEnter(Collision col)
+        public override void Bump(Collision col)
         {
-            base.OnColEnter(col);
+            base.Bump(col);
             if (col.transform.CompareTag("Player"))
             {
                 //Attack(col.gameObject);

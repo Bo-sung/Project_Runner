@@ -1,6 +1,7 @@
 ﻿using System;
 using PlayerInitiallize;
 using scr.PlayerScr;
+using Statuses;
 using UnityEngine;
 
 
@@ -141,18 +142,25 @@ public class User : Player
         }
     }
 
-    public override void OnColEnter(Collision col)
+    public override void Bump(Collision col)
     {
-        base.OnColEnter(col);
-        if (col.transform.tag == "GROUND")
+        base.Bump(col);
+        if (col.transform.CompareTag("GROUND"))
         {
             Debug.Log("ON");
-            state.Standing.jump = false;
-            Set_Ani(ani, (int) Mov.Stand, (int) Sta.Run);
-            smoke.SetActive(true);
+            if (state.Standing.jump)
+            {
+                state.Standing.jump = false;
+                Set_Ani(ani, (int) Mov.Stand, (int) Sta.Run);
+                smoke.SetActive(true);
+            }
         }
+    }
 
-        if (col.transform.tag == "Item")
+    private void OnTriggerEnter(Collider col)
+    {
+        
+        if (col.transform.CompareTag("Item"))
         {
             Debug.Log("Equip");
             if (col.transform.name == "Gun")
@@ -169,9 +177,5 @@ public class User : Player
             }
             Upper = upperSelector();
         }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
     }
 }
