@@ -23,42 +23,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88e1fcbe-6646-4c32-b313-955db1c299b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.runner/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.runner/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.runner/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/.PixelCharAnimFinal.png-autosave.kra" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/.PixelCharAnimFinal.png-autosave.kra" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper.png.kra" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper.png.kra" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper_Crouch.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper_Crouch.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper_Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper_Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper_Jump.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper_Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper_Run.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper_Run.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/GunUpper/PixelCharGunUpper_Run.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper.png.kra" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper.png.kra" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper_Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper_Idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper_Idle.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper_Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper_Jump.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper_Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platformer Animation Pack/SwordUpper/PixelCharSwordUpper_Run.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefap/stage_Cave_normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefap/stage_Cave_normal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefap/stage_Cave_thick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefap/stage_Cave_thick.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefap/stage_Grass_normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefap/stage_Grass_normal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefap/stage_Grass_thick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefap/stage_Grass_thick.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefap/stage_Sand_normal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefap/stage_Sand_normal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefap/stage_Sand_thick.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefap/stage_Sand_thick.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scr/PlayerScr/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scr/PlayerScr/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scr/PlayerScr/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scr/PlayerScr/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="88e1fcbe-6646-4c32-b313-955db1c299b3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,12 +268,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567203556477</updated>
       <workItem from="1567203565125" duration="3565000" />
-      <workItem from="1567268101388" duration="1198000" />
+      <workItem from="1567268101388" duration="1798000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4763000" />
+    <option name="totallyTimeSpent" value="5363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -321,7 +286,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1674" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14480197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
